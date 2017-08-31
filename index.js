@@ -26,7 +26,7 @@ function currentLine(line) {
     for (let i=0;i<line.length-1;i++) {
       message += `${i+1}. ${line[i]}, `;
     }
-    message+=`${line.length-1}. ${line[line.length-1]}`
+    message+=`${line.length}. ${line[line.length-1]}`
     return message;
   }
 }
