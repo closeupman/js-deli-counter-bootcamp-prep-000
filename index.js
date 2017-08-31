@@ -12,5 +12,8 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length ==0) {
     return 'The line is empty';
+  } else {
+    let name = katzDeliLine.shift();
+    return `Now serving ${name}`;
   }
 }
