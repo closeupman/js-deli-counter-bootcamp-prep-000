@@ -24,7 +24,7 @@ function currentLine(line) {
   } else {
     let message = 'The line is currently ';
     for (let i=0;i<line.length;i++) {
-      message += `${i}. line[i]`;
+      message += `${i+1}. ${line[i]},`;
     }
     return message;
   }
